@@ -1,0 +1,77 @@
+.bar.bar-medcapital1 {
+    border-color: #086BAC;
+    background-color: #086BAC;
+    background-image: linear-gradient(0deg, #086BAC, #086BAC 50%, transparent 50%);
+    color: #fff;
+    height: 30px;
+
+}
+
+.bar-medcapital1 .title {
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.full-iframe1 {
+    height: 100%;
+    top: 0;
+    padding-top: 30px;
+}
+
+.full-iframe1 .scroll {
+    height: 100%;
+}
+
+.full-iframe1 .iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    top: -29px;
+    padding-top: 29px;
+}
+
+
+/*-------------------*/
+
+.bar-medcapital2 {
+    border-color: #086BAC;
+    background-color: #086BAC;
+    background-image: linear-gradient(0deg, #086BAC, #086BAC 50%, transparent 50%);
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+
+.bar-medcapital2 .title {
+    font-size: 15px;
+    line-height: 30px;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.full-iframe2 {
+    height: 100%;
+}
+
+.full-iframe2 .scroll {
+    height: 100%;
+}
+
+.full-iframe2 .iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    top: 1px;
+    padding-top: 37px;
+    background: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100% 100%"><text fill="%23086BAC" x="50%" y="50%" font-family="\'Lucida Grande\', sans-serif" font-size="24" text-anchor="middle">Aguarde...</text></svg>') 0px 0px no-repeat;
+}
